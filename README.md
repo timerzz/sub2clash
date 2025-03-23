@@ -24,7 +24,7 @@
 ### 部署
 
 - [docker compose](./docker-compose.yml)
-- 运行[二进制文件](https://github.com/nitezs/sub2clash/releases/latest)
+- 运行[二进制文件](https://github.com/timerzz/sub2clash/releases/latest)
 
 ### 配置
 

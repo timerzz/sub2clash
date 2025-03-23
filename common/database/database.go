@@ -5,7 +5,7 @@ import (
 	"errors"
 	"path/filepath"
 
-	"github.com/nitezs/sub2clash/model"
+	"github.com/timerzz/sub2clash/model"
 
 	"go.etcd.io/bbolt"
 )

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/nitezs/sub2clash/config"
+	"github.com/timerzz/sub2clash/config"
 )
 
 type GetConfig struct {

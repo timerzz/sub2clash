@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/nitezs/sub2clash/logger"
+	"github.com/timerzz/sub2clash/logger"
 
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"

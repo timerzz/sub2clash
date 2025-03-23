@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nitezs/sub2clash/config"
+	"github.com/timerzz/sub2clash/config"
 )
 
 var subsDir = "subs"

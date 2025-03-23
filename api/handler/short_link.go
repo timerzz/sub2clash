@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nitezs/sub2clash/common"
-	"github.com/nitezs/sub2clash/common/database"
-	"github.com/nitezs/sub2clash/config"
-	"github.com/nitezs/sub2clash/model"
-	"github.com/nitezs/sub2clash/validator"
+	"github.com/timerzz/sub2clash/common"
+	"github.com/timerzz/sub2clash/common/database"
+	"github.com/timerzz/sub2clash/config"
+	"github.com/timerzz/sub2clash/model"
+	"github.com/timerzz/sub2clash/validator"
 
 	"github.com/gin-gonic/gin"
 )
@@ -35,7 +35,7 @@ func GenerateLinkHandler(c *gin.Context) {
 	var hash string
 	var password string
 	var err error
-	
+
 	if params.CustomID != "" {
 		// 检查自定义ID是否已存在
 		exists, err := database.CheckShortLinkHashExists(params.CustomID)
@@ -76,7 +76,7 @@ func GenerateLinkHandler(c *gin.Context) {
 
 	// 返回生成的短链ID和密码
 	response := map[string]string{
-		"hash": hash,
+		"hash":     hash,
 		"password": password,
 	}
 	c.JSON(http.StatusOK, response)

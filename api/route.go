@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/nitezs/sub2clash/api/handler"
-	"github.com/nitezs/sub2clash/constant"
-	"github.com/nitezs/sub2clash/middleware"
+	"github.com/timerzz/sub2clash/api/handler"
+	"github.com/timerzz/sub2clash/constant"
+	"github.com/timerzz/sub2clash/middleware"
 
 	"github.com/gin-gonic/gin"
 )

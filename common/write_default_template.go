@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/nitezs/sub2clash/config"
+	"github.com/timerzz/sub2clash/config"
 )
 
 func writeTemplate(path string, template string) error {

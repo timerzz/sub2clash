@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nitezs/sub2clash/constant"
-	"github.com/nitezs/sub2clash/model"
+	"github.com/timerzz/sub2clash/constant"
+	"github.com/timerzz/sub2clash/model"
 )
 
 func ParseShadowsocksR(proxy string) (model.Proxy, error) {

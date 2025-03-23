@@ -4,9 +4,9 @@ import (
 	_ "embed"
 	"net/http"
 
-	"github.com/nitezs/sub2clash/config"
-	"github.com/nitezs/sub2clash/model"
-	"github.com/nitezs/sub2clash/validator"
+	"github.com/timerzz/sub2clash/config"
+	"github.com/timerzz/sub2clash/model"
+	"github.com/timerzz/sub2clash/validator"
 
 	"github.com/gin-gonic/gin"
 	"gopkg.in/yaml.v3"

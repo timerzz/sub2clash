@@ -5,11 +5,11 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/nitezs/sub2clash/api"
-	"github.com/nitezs/sub2clash/common"
-	"github.com/nitezs/sub2clash/common/database"
-	"github.com/nitezs/sub2clash/config"
-	"github.com/nitezs/sub2clash/logger"
+	"github.com/timerzz/sub2clash/api"
+	"github.com/timerzz/sub2clash/common"
+	"github.com/timerzz/sub2clash/common/database"
+	"github.com/timerzz/sub2clash/config"
+	"github.com/timerzz/sub2clash/logger"
 
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
